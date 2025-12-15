@@ -1,0 +1,97 @@
+:root {
+--muted: #9a9aaa;
+}
+
+
+* {
+box-sizing: border-box;
+}
+
+
+body {
+margin: 0;
+font-family: Inter, system-ui, sans-serif;
+background: var(--bg);
+color: var(--text);
+}
+
+
+.container {
+display: grid;
+grid-template-columns: 320px 1fr;
+min-height: 100vh;
+}
+
+
+.sidebar {
+background: var(--card);
+padding: 24px;
+border-radius: 0 24px 24px 0;
+}
+
+
+.avatar {
+width: 100%;
+border-radius: 20px;
+margin-bottom: 16px;
+}
+
+
+h1 {
+margin: 8px 0 4px;
+}
+
+
+.meta {
+color: var(--muted);
+font-size: 14px;
+}
+
+
+blockquote {
+margin: 16px 0;
+padding-left: 12px;
+border-left: 3px solid var(--accent);
+color: var(--accent);
+}
+
+
+.stack {
+display: flex;
+flex-wrap: wrap;
+gap: 12px;
+}
+
+
+.stack img {
+width: 48px;
+height: 48px;
+background: #fff;
+padding: 6px;
+border-radius: 14px;
+cursor: grab;
+}
+
+
+.content {
+padding: 32px;
+}
+
+
+.job {
+background: var(--card);
+border-radius: 24px;
+padding: 24px;
+margin-bottom: 24px;
+}
+
+
+.job h2 {
+margin-top: 0;
+}
+
+
+.company {
+color: var(--accent);
+font-size: 14px;
+}
